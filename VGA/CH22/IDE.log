@@ -1,0 +1,24 @@
+20:46:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\08_Project\07_EBAZ4205_Video\Lesson09_B_MT9V034_VDMA\temp_xsdb_launch_script.tcl
+20:46:39 INFO  : XSCT server has started successfully.
+20:46:39 INFO  : Successfully done setting XSCT server connection channel  
+20:46:39 INFO  : plnx-install-location is set to ''
+20:46:46 INFO  : Registering command handlers for Vitis TCF services
+20:46:54 INFO  : Successfully done setting workspace for the tool. 
+20:46:54 INFO  : Successfully done query RDI_DATADIR 
+20:56:55 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+21:11:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\08_Project\07_EBAZ4205_Video\Lesson09_B_MT9V034_VDMA\temp_xsdb_launch_script.tcl
+21:11:44 INFO  : XSCT server has started successfully.
+21:11:44 INFO  : Successfully done setting XSCT server connection channel  
+21:11:44 INFO  : plnx-install-location is set to ''
+21:11:44 INFO  : Successfully done setting workspace for the tool. 
+21:11:47 INFO  : Successfully done query RDI_DATADIR 
+21:11:49 INFO  : Registering command handlers for Vitis TCF services
+21:16:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\08_Project\07_EBAZ4205_Video\Lesson09_B_MT9V034_VDMA\temp_xsdb_launch_script.tcl
+21:16:36 INFO  : XSCT server has started successfully.
+21:16:36 INFO  : Successfully done setting XSCT server connection channel  
+21:16:36 INFO  : plnx-install-location is set to ''
+21:16:36 INFO  : Successfully done setting workspace for the tool. 
+21:16:36 INFO  : Successfully done query RDI_DATADIR 
+21:16:36 INFO  : Registering command handlers for Vitis TCF services
+21:18:53 ERROR : An unexpected exception occurred in the module 'reading platform'
+21:18:53 INFO  : Removed 'E:/08_Project/07_EBAZ4205_Video/Lesson09_B_MT9V034_VDMA/design_1_wrapper/export/design_1_wrapper' from custom platform repositories.

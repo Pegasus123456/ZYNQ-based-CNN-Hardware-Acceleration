@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/08_Project/07_EBAZ4205_CNN/CH22/project_1.sim/sim_1/behav/modelsim
+EssHwqd0x5mH6Ulp1Kdg9ODYGcBC6ThyoBvPyecBy6os=
+Z1 w1628605255
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../../../../project_1.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+Z5 F../../../../project_1.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+l0
+L525
+V50XYfUEd_FgE54dCd[1_42
+!s100 <5hY6z8W];U94<zWYbL0o2
+Z6 OL;C;10.5;63
+!i8a 1885167024
+31
+Z7 !s110 1628605836
+!i10b 1
+Z8 !s108 1628605835.000000
+Z9 !s90 -64|-93|-work|xbip_pipe_v3_0_6|../../../../project_1.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+Z10 !s107 ../../../../project_1.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+!i113 0
+Z11 o-93 -work xbip_pipe_v3_0_6
+Z12 tExplicit 1 CvgOpt 0
+nfbcb96
+A6DYuBLFYD97JTv+SJsO6OA==
+Z13 DPx18 xbip_utils_v3_0_10 22 xbip_utils_v3_0_10_pkg 0 22 gAek;34MlPbfLNkSMXSm?3
+Z14 DEx16 xbip_pipe_v3_0_6 20 xbip_pipe_v3_0_6_viv 0 22 I1DTXkAZRa5:Ha0LJ[M0n0
+R2
+R3
+Z15 DEx4 work 16 xbip_pipe_v3_0_6 0 22 50XYfUEd_FgE54dCd[1_42
+l555
+L550
+Z16 V3Fk>H0UJee<dA?kGE:@:;1
+Z17 !s100 mZlm91nfN^e_o1kRE_73:1
+R6
+!i8a 2124511920
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Z18 n7f03058
+PX+C9S69HqDsb0JPvHI5TA9ZgnNnqzyTUuay/VBjXg/U=
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L207
+Vb5zh639[=V`^3c[8]OSF60
+!s100 FY`9RB8VDoB;I^0k;c=nE2
+R6
+!i8a 942202000
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n9ca3af0
+EhjxEzK5G8wISMqxgDLrO1AO0vspDO6hEZwiUSPfYdiE=
+R1
+R13
+R2
+R3
+R0
+R4
+R5
+l0
+L294
+VI1DTXkAZRa5:Ha0LJ[M0n0
+!s100 l?4A2eBco_FHJUnd449mY2
+R6
+!i8a 1029312576
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+nb9c98c6
+AY/lqH0iA7p6Avl8vlzZ+Bw==
+R13
+R2
+R3
+Z19 DEx4 work 20 xbip_pipe_v3_0_6_viv 0 22 I1DTXkAZRa5:Ha0LJ[M0n0
+l350
+L319
+Z20 V5Ez@GYnGBBSOA4<SZT=R22
+Z21 !s100 e`9_M@_KjCj`INdS8T:oa2
+R6
+!i8a 1073214240
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Z22 n7b05a8
+PBiNdpSwDLXxYuTCYWKN+qf+xZE9jwVe5JB/Bs4y3/mI=
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L125
+VAGI2j8z2AI2i_9zkgBWNL3
+!s100 Fe:SLFaJioZFJf3kAKVXM2
+R6
+!i8a 2059514896
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+nc1c6dc0

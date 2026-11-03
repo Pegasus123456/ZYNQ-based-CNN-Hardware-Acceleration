@@ -1,0 +1,182 @@
+07:47:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\08_Project\07_EBAZ4205_CNN\CH22\vitis_ps\temp_xsdb_launch_script.tcl
+07:47:35 INFO  : XSCT server has started successfully.
+07:47:35 INFO  : Successfully done setting XSCT server connection channel  
+07:47:35 INFO  : plnx-install-location is set to ''
+07:47:35 INFO  : Successfully done query RDI_DATADIR 
+07:47:35 INFO  : Successfully done setting workspace for the tool. 
+07:47:36 INFO  : Registering command handlers for Vitis TCF services
+07:50:13 INFO  : Checking for BSP changes to sync application flags for project 'mt9v034_cnn'...
+07:58:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299980130" && level==0} -index 1' command is executed.
+07:58:25 INFO  : 'fpga -state' command is executed.
+07:58:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:58:25 INFO  : Jtag cable 'Digilent JTAG-HS3 210299980130' is selected.
+07:58:25 INFO  : 'jtag frequency' command is executed.
+07:58:25 INFO  : Context for 'APU' is selected.
+07:58:25 INFO  : Hardware design information is loaded from 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_ps/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+07:58:25 INFO  : 'configparams force-mem-access 1' command is executed.
+07:58:25 INFO  : Context for 'APU' is selected.
+07:58:25 INFO  : 'stop' command is executed.
+07:58:25 INFO  : Sourcing of 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_ps/mt9v034_cnn/_ide/psinit/ps7_init.tcl' is done.
+07:58:25 INFO  : 'ps7_init' command is executed.
+07:58:25 INFO  : 'ps7_post_config' command is executed.
+07:58:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:58:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+07:58:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:58:49 INFO  : The application 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_ps/mt9v034_cnn/Debug/mt9v034_cnn.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:58:49 INFO  : 'configparams force-mem-access 0' command is executed.
+07:58:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_ps/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+source E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_ps/mt9v034_cnn/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_ps/mt9v034_cnn/Debug/mt9v034_cnn.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+07:58:49 INFO  : Memory regions updated for context APU
+07:58:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:58:49 INFO  : 'con' command is executed.
+07:58:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+07:58:49 INFO  : Launch script is exported to file 'E:\08_Project\07_EBAZ4205_CNN\CH22\vitis_ps\.sdk\launch_scripts\single_application_debug\systemdebugger_mt9v034_cnn_system_standalone.tcl'
+08:02:01 INFO  : Disconnected from the channel tcfchan#3.
+21:50:12 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\dachaung_fpga\CH22_2\CH22\vitis_ps\temp_xsdb_launch_script.tcl
+21:50:14 INFO  : XSCT server has started successfully.
+21:50:14 INFO  : plnx-install-location is set to ''
+21:50:14 INFO  : Successfully done setting XSCT server connection channel  
+21:50:14 INFO  : Successfully done setting workspace for the tool. 
+21:50:15 INFO  : Registering command handlers for Vitis TCF services
+21:50:15 INFO  : Successfully done query RDI_DATADIR 
+21:50:24 ERROR : Hardware specification file is not configured properly in the launch configuration 'SystemDebugger_mt9v034_cnn_system_Standalone'. 
+Make sure that the application 'mt9v034_cnn' is built properly for configuration 'Debug' before launching.
+21:50:29 INFO  : Checking for BSP changes to sync application flags for project 'mt9v034_cnn'...
+21:50:29 ERROR : Failed to get platform details for the project 'mt9v034_cnn'. Cannot sync application flags.
+21:50:56 ERROR : Hardware specification file is not configured properly in the launch configuration 'SystemDebugger_mt9v034_cnn_system_Standalone'. 
+Make sure that the application 'mt9v034_cnn' is built properly for configuration 'Debug' before launching.
+21:51:00 INFO  : Checking for BSP changes to sync application flags for project 'mt9v034_cnn'...
+21:51:00 ERROR : Failed to get platform details for the project 'mt9v034_cnn'. Cannot sync application flags.
+21:51:09 INFO  : Checking for BSP changes to sync application flags for project 'mt9v034_cnn'...
+21:51:09 ERROR : Failed to get platform details for the project 'mt9v034_cnn'. Cannot sync application flags.
+21:51:27 ERROR : Hardware specification file is not configured properly in the launch configuration 'SystemDebugger_mt9v034_cnn_system_Standalone'. 
+Make sure that the application 'mt9v034_cnn' is built properly for configuration 'Debug' before launching.
+21:51:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\dachaung_fpga\CH22_2\CH22\vitis_ps\temp_xsdb_launch_script.tcl
+21:51:46 INFO  : XSCT server has started successfully.
+21:51:46 INFO  : plnx-install-location is set to ''
+21:51:46 INFO  : Successfully done setting XSCT server connection channel  
+21:51:46 INFO  : Successfully done setting workspace for the tool. 
+21:51:47 INFO  : Registering command handlers for Vitis TCF services
+21:51:47 INFO  : Successfully done query RDI_DATADIR 
+21:51:51 INFO  : Checking for BSP changes to sync application flags for project 'mt9v034_cnn'...
+21:51:51 ERROR : Failed to get platform details for the project 'mt9v034_cnn'. Cannot sync application flags.
+21:52:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:52:10 INFO  : Jtag cable 'Digilent JTAG-HS3 210299086507' is selected.
+21:52:10 INFO  : 'jtag frequency' command is executed.
+21:52:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299086507" && level==0} -index 1' command is executed.
+21:52:12 INFO  : FPGA configured successfully with bitstream "E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/bitstream/design_1_wrapper.bit"
+21:52:12 INFO  : Context for 'APU' is selected.
+21:52:12 INFO  : Hardware design information is loaded from 'E:/dachaung_fpga/CH22_2/CH22/vitis_ps/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:52:12 INFO  : 'configparams force-mem-access 1' command is executed.
+21:52:12 INFO  : Context for 'APU' is selected.
+21:52:12 INFO  : 'stop' command is executed.
+21:52:12 INFO  : Sourcing of 'E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/psinit/ps7_init.tcl' is done.
+21:52:12 INFO  : 'ps7_init' command is executed.
+21:52:12 INFO  : 'ps7_post_config' command is executed.
+21:52:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:12 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:52:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:43 INFO  : The application 'E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/Debug/mt9v034_cnn.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:52:43 INFO  : 'configparams force-mem-access 0' command is executed.
+21:52:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299086507" && level==0} -index 1
+fpga -file E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/dachaung_fpga/CH22_2/CH22/vitis_ps/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+source E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/Debug/mt9v034_cnn.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:52:43 INFO  : Memory regions updated for context APU
+21:52:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:43 INFO  : 'con' command is executed.
+21:52:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:52:43 INFO  : Launch script is exported to file 'E:\dachaung_fpga\CH22_2\CH22\vitis_ps\.sdk\launch_scripts\single_application_debug\systemdebugger_mt9v034_cnn_system_standalone.tcl'
+21:54:25 INFO  : Disconnected from the channel tcfchan#1.
+21:54:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:54:25 INFO  : Jtag cable 'Digilent JTAG-HS3 210299086507' is selected.
+21:54:25 INFO  : 'jtag frequency' command is executed.
+21:54:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299086507" && level==0} -index 1' command is executed.
+21:54:26 INFO  : FPGA configured successfully with bitstream "E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/bitstream/design_1_wrapper.bit"
+21:54:26 INFO  : Context for 'APU' is selected.
+21:54:27 INFO  : Hardware design information is loaded from 'E:/dachaung_fpga/CH22_2/CH22/vitis_ps/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:54:27 INFO  : 'configparams force-mem-access 1' command is executed.
+21:54:27 INFO  : Context for 'APU' is selected.
+21:54:27 INFO  : 'stop' command is executed.
+21:54:27 INFO  : Sourcing of 'E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/psinit/ps7_init.tcl' is done.
+21:54:27 INFO  : 'ps7_init' command is executed.
+21:54:27 INFO  : 'ps7_post_config' command is executed.
+21:54:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:54:27 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:54:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:54:59 INFO  : The application 'E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/Debug/mt9v034_cnn.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:54:59 INFO  : 'configparams force-mem-access 0' command is executed.
+21:54:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299086507" && level==0} -index 1
+fpga -file E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/dachaung_fpga/CH22_2/CH22/vitis_ps/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+source E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/dachaung_fpga/CH22_2/CH22/vitis_ps/mt9v034_cnn/Debug/mt9v034_cnn.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:54:59 INFO  : Memory regions updated for context APU
+21:54:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:54:59 INFO  : 'con' command is executed.
+21:54:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:54:59 INFO  : Launch script is exported to file 'E:\dachaung_fpga\CH22_2\CH22\vitis_ps\.sdk\launch_scripts\single_application_debug\systemdebugger_mt9v034_cnn_system_standalone.tcl'
+21:55:41 INFO  : Disconnected from the channel tcfchan#2.
+21:57:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\dachaung_fpga\CH22_2\CH22\vitis_ps\temp_xsdb_launch_script.tcl
+21:57:20 INFO  : XSCT server has started successfully.
+21:57:20 INFO  : plnx-install-location is set to ''
+21:57:20 INFO  : Successfully done setting XSCT server connection channel  
+21:57:20 INFO  : Successfully done setting workspace for the tool. 
+21:57:20 INFO  : Registering command handlers for Vitis TCF services
+21:57:21 INFO  : Successfully done query RDI_DATADIR 

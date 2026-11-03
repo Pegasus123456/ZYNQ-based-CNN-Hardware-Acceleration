@@ -1,0 +1,476 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/08_Project/07_EBAZ4205_CNN/CH22/project_1.sim/sim_1/behav/modelsim
+T_opt
+!s110 1628605851
+Vkhedf5ZV0Z55SUkk47dAc3
+04 10 4 work tb_cnn_top fast 0
+04 4 4 work glbl fast 0
+=1-0c9d92c28584-61128d98-286-47dc
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L fifo_generator_v13_2_5 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L blk_mem_gen_v8_4_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vcnn_top
+!s10a 1628596519
+Z2 !s110 1628598661
+!i10b 1
+!s100 ]o8Y[[iMK>ZaBL3V@J>a42
+IKDPcJoo<9CMCUH88UYL823
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1628596519
+8../../../../ip_repo/cnn_top.v
+F../../../../ip_repo/cnn_top.v
+Z4 L0 24
+Z5 OL;L;10.5;63
+r1
+!s85 0
+31
+Z6 !s108 1628598660.000000
+Z7 !s107 ../../../../sim/tb_cnn_top.v|../../../../ip_repo/pool_layer.v|../../../../ip_repo/param_rom.v|../../../../ip_repo/gen_sim_data.v|../../../../ip_repo/downsample.v|../../../../ip_repo/data_ram.v|../../../../ip_repo/conv_cal.v|../../../../ip_repo/cnn_top.v|../../../../project_1.srcs/sources_1/ip/rom_img_ip/sim/rom_img_ip.v|../../../../project_1.srcs/sources_1/ip/data_ram_ip/sim/data_ram_ip.v|../../../../project_1.srcs/sources_1/ip/rom_b_ip/sim/rom_b_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w0_ip/sim/rom_w0_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w1_ip/sim/rom_w1_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w2_ip/sim/rom_w2_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w3_ip/sim/rom_w3_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w4_ip/sim/rom_w4_ip.v|
+Z8 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba|+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl|+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1|+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include|../../../../project_1.srcs/sources_1/ip/rom_w4_ip/sim/rom_w4_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w3_ip/sim/rom_w3_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w2_ip/sim/rom_w2_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w1_ip/sim/rom_w1_ip.v|../../../../project_1.srcs/sources_1/ip/rom_w0_ip/sim/rom_w0_ip.v|../../../../project_1.srcs/sources_1/ip/rom_b_ip/sim/rom_b_ip.v|../../../../project_1.srcs/sources_1/ip/data_ram_ip/sim/data_ram_ip.v|../../../../project_1.srcs/sources_1/ip/rom_img_ip/sim/rom_img_ip.v|../../../../ip_repo/cnn_top.v|../../../../ip_repo/conv_cal.v|../../../../ip_repo/data_ram.v|../../../../ip_repo/downsample.v|../../../../ip_repo/gen_sim_data.v|../../../../ip_repo/param_rom.v|../../../../ip_repo/pool_layer.v|../../../../sim/tb_cnn_top.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -work xil_defaultlib +incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl +incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl +incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl +incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba +incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl +incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1 +incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vconv_cal
+!s10a 1628602311
+!s110 1628602341
+!i10b 1
+!s100 3dDHWgldi0lh2FaDMbS=02
+IL[jB1QGA:Ce`Af6j1@][f2
+R3
+R0
+w1628602311
+8../../../../ip_repo/conv_cal.v
+F../../../../ip_repo/conv_cal.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1628602341.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vdata_ram
+!s10a 1628600071
+!s110 1628600082
+!i10b 1
+!s100 YnX>;Z2mh2>BhM>Ad_;fm1
+I0TSM^NaSj52[UPIb5<djG2
+R3
+R0
+w1628600071
+8../../../../ip_repo/data_ram.v
+F../../../../ip_repo/data_ram.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1628600082.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vdata_ram_ip
+!s10a 1628603801
+!s110 1628603881
+!i10b 1
+!s100 Fj^De=EU]F?K_VY@bZ?:03
+IH9E>_jdhhQJ;I5EX?@HRM2
+R3
+R0
+w1628603801
+8../../../../project_1.srcs/sources_1/ip/data_ram_ip/sim/data_ram_ip.v
+F../../../../project_1.srcs/sources_1/ip/data_ram_ip/sim/data_ram_ip.v
+Z11 L0 56
+R5
+r1
+!s85 0
+31
+!s108 1628603881.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vdownsample
+!s10a 1628596146
+R2
+!i10b 1
+!s100 ZChiz`OJncbF[;9n0D=gc1
+IF1QFa=j?2Pa]52NO=UVmn0
+R3
+R0
+w1628596146
+8../../../../ip_repo/downsample.v
+F../../../../ip_repo/downsample.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vfifo_generator_0
+!s10a 1628604277
+!s110 1628604309
+!i10b 1
+!s100 ?h?7?T8o7lh]gb9l4mWn42
+IHWXbD4Z=^YYNV1Snc1<[m3
+R3
+R0
+w1628604277
+8../../../../project_1.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v
+F../../../../project_1.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v
+R11
+R5
+r1
+!s85 0
+31
+!s108 1628604309.000000
+!s107 ../../../../project_1.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v|
+!s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl|+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba|+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl|+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1|+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include|../../../../project_1.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v|
+!i113 0
+R9
+R10
+R1
+vgen_sim_data
+!s10a 1628605806
+!s110 1628605816
+!i10b 1
+!s100 nRcYHP0nH;n28CBe8]V^`3
+I]K015KL0dKEREgV99a1DD1
+R3
+R0
+w1628605806
+8../../../../ip_repo/gen_sim_data.v
+F../../../../ip_repo/gen_sim_data.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1628605816.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vglbl
+!s110 1628605839
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R3
+R0
+w1573089660
+8glbl.v
+Fglbl.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1628605839.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R9
+R1
+Emult_gen_0
+Z12 w1628605248
+Z13 DPx17 mult_gen_v12_0_16 26 mult_gen_v12_0_16_viv_comp 0 22 dUKFOWBi^7B9D:S5^:cc?0
+DEx17 mult_gen_v12_0_16 17 mult_gen_v12_0_16 0 22 U]H4Yo7KE2Y6=O[n17Gck0
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z15 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z16 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z17 8../../../../project_1.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd
+Z18 F../../../../project_1.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd
+l0
+L59
+V0V[4nbD[cL7MAlLVD2_Ci0
+!s100 P?O2J9g`7YV_ZOHjoDL]g2
+Z19 OL;C;10.5;63
+31
+Z20 !s110 1628605837
+!i10b 1
+Z21 !s108 1628605837.000000
+Z22 !s90 -64|-93|-work|xil_defaultlib|../../../../project_1.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd|
+Z23 !s107 ../../../../project_1.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd|
+!i113 0
+Z24 o-93 -work xil_defaultlib
+Z25 tExplicit 1 CvgOpt 0
+Amult_gen_0_arch
+R13
+R14
+R15
+R16
+DEx4 work 10 mult_gen_0 0 22 0V[4nbD[cL7MAlLVD2_Ci0
+l113
+L68
+Vf1Tk`5nc7[bnmc]31?Il:0
+!s100 Ja7:=f[zE<AbA5WIX^XKQ0
+R19
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R24
+R25
+vparam_rom
+!s10a 1628513285
+R2
+!i10b 1
+!s100 H?bECR?0:LDnDcVXXe8^S1
+ID1_R>>ak2lFEjU^]mcTem3
+R3
+R0
+w1628513285
+8../../../../ip_repo/param_rom.v
+F../../../../ip_repo/param_rom.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpool_layer
+!s10a 1628592051
+R2
+!i10b 1
+!s100 VNHfHn[SOC8R>5Zj[@=062
+IaRR3kAz2nU`oA;EEdO>[G2
+R3
+R0
+w1628592051
+8../../../../ip_repo/pool_layer.v
+F../../../../ip_repo/pool_layer.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_b_ip
+!s10a 1628513019
+R2
+!i10b 1
+!s100 0<gZ0Y9H3cY21I79U1D1O0
+IJQin:lDlNBeFCLdc6Rob20
+R3
+R0
+w1628513019
+8../../../../project_1.srcs/sources_1/ip/rom_b_ip/sim/rom_b_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_b_ip/sim/rom_b_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_img_ip
+!s10a 1628597704
+R2
+!i10b 1
+!s100 ?cjPHE:;<=0_P[mfZI4ZI0
+I6f7Qk3PLc6EdlJNh=`iLo2
+R3
+R0
+w1628597704
+8../../../../project_1.srcs/sources_1/ip/rom_img_ip/sim/rom_img_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_img_ip/sim/rom_img_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_w0_ip
+!s10a 1628512747
+R2
+!i10b 1
+!s100 e1d>H]XFKRQ9QBhK>k5fW2
+I3l_k`1K0?bn_K82<@Ei271
+R3
+R0
+w1628512747
+8../../../../project_1.srcs/sources_1/ip/rom_w0_ip/sim/rom_w0_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_w0_ip/sim/rom_w0_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_w1_ip
+!s10a 1628512795
+R2
+!i10b 1
+!s100 >]0<;:6?;CB_EX5<lZ:^I3
+I;MJl1;IjSiB4z_G0HMQf:2
+R3
+R0
+w1628512795
+8../../../../project_1.srcs/sources_1/ip/rom_w1_ip/sim/rom_w1_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_w1_ip/sim/rom_w1_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_w2_ip
+!s10a 1628512862
+R2
+!i10b 1
+!s100 D]dn4;ZJXD@NozXEZO^];0
+I6>ke^V><R[:Siz6LiDX2Y1
+R3
+R0
+w1628512862
+8../../../../project_1.srcs/sources_1/ip/rom_w2_ip/sim/rom_w2_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_w2_ip/sim/rom_w2_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_w3_ip
+!s10a 1628512914
+Z26 !s110 1628598660
+!i10b 1
+!s100 ?i59QZ`Rc>n64GGIYL^d81
+Ihnm<S763Vf>65fA3m37Yn3
+R3
+R0
+w1628512914
+8../../../../project_1.srcs/sources_1/ip/rom_w3_ip/sim/rom_w3_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_w3_ip/sim/rom_w3_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrom_w4_ip
+!s10a 1628512964
+R26
+!i10b 1
+!s100 NI4?J4Lj:OZ]PI]0_zR9V0
+ILFfZ]__b;5PZP82JHfX432
+R3
+R0
+w1628512964
+8../../../../project_1.srcs/sources_1/ip/rom_w4_ip/sim/rom_w4_ip.v
+F../../../../project_1.srcs/sources_1/ip/rom_w4_ip/sim/rom_w4_ip.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vtb_cnn_top
+!s10a 1628598528
+R2
+!i10b 1
+!s100 ICbQl7cklOPiX1NSC7PQg1
+IFIjD57eP;bfP;k^cGNT9W1
+R3
+R0
+w1628598528
+8../../../../sim/tb_cnn_top.v
+F../../../../sim/tb_cnn_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1

@@ -1,0 +1,107 @@
+07:35:15 **** Build of configuration Debug for project mt9v034_acc ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:9:
+E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:49:26: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+     float *cnn_param_w = 0x2000000;
+                          ^~~~~~~~~
+../src/main.c:50:23: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *cnn_param_b = 0x2000C00;
+                       ^~~~~~~~~
+../src/main.c:13:26: warning: initialization of 'u8 *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+ #define VDMA_FRAME0      0x01000000
+                          ^~~~~~~~~~
+../src/main.c:55:18: note: in expansion of macro 'VDMA_FRAME0'
+  u8 *cmos_data = VDMA_FRAME0;
+                  ^~~~~~~~~~~
+../src/main.c:15:27: warning: initialization of 'u32 *' {aka 'long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+ #define VDMA1_FRAME0      0x03000000
+                           ^~~~~~~~~~
+../src/main.c:60:19: note: in expansion of macro 'VDMA1_FRAME0'
+  u32 *pool_rslt = VDMA1_FRAME0;
+                   ^~~~~~~~~~~~
+../src/main.c:62:24: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+     float *affine1_w = 0x2025000;
+                        ^~~~~~~~~
+../src/main.c:63:24: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+     float *affine1_b = 0x21CB000;
+                        ^~~~~~~~~
+../src/main.c:65:27: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+     float *affine1_rslt = 0x21CC000;
+                           ^~~~~~~~~
+../src/main.c:68:24: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+     float *affine2_w = 0x21CC200;
+                        ^~~~~~~~~
+../src/main.c:69:24: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+     float *affine2_b = 0x21CD200;
+                        ^~~~~~~~~
+../src/main.c:83:11: warning: variable 'time_cost' set but not used [-Wunused-but-set-variable]
+     float time_cost;
+           ^~~~~~~~~
+../src/main.c:77:9: warning: unused variable 'index' [-Wunused-variable]
+     int index;
+         ^~~~~
+../src/main.c:55:6: warning: unused variable 'cmos_data' [-Wunused-variable]
+  u8 *cmos_data = VDMA_FRAME0;
+      ^~~~~~~~~
+../src/main.c:52:5: warning: unused variable 'img_data' [-Wunused-variable]
+  u8 img_data[784];
+     ^~~~~~~~
+../src/main.c:50:9: warning: unused variable 'cnn_param_b' [-Wunused-variable]
+  float *cnn_param_b = 0x2000C00;
+         ^~~~~~~~~~~
+../src/main.c:49:12: warning: unused variable 'cnn_param_w' [-Wunused-variable]
+     float *cnn_param_w = 0x2000000;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/param_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/param_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/param_init.d" -MT"src/param_init.o" -o "src/param_init.o" "../src/param_init.c"
+../src/param_init.c: In function 'conv_param_init':
+../src/param_init.c:5:23: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *cnn_param_w = 0x2000000;
+                       ^~~~~~~~~
+../src/param_init.c:6:23: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *cnn_param_b = 0x2000C00;
+                       ^~~~~~~~~
+../src/param_init.c: In function 'affine1_param_init':
+../src/param_init.c:795:21: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *affine1_w = 0x2025000;
+                     ^~~~~~~~~
+../src/param_init.c:796:21: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *affine1_b = 0x21CB000;
+                     ^~~~~~~~~
+../src/param_init.c: In function 'affine2_param_init':
+../src/param_init.c:432905:21: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *affine2_w = 0x21CC200;
+                     ^~~~~~~~~
+../src/param_init.c:432906:21: warning: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  float *affine2_b = 0x21CD200;
+                     ^~~~~~~~~
+'Finished building: ../src/param_init.c'
+' '
+'Building target: mt9v034_acc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "mt9v034_acc.elf"  ./src/main.o ./src/param_init.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mt9v034_acc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size mt9v034_acc.elf  |tee "mt9v034_acc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+11439148	   1144	  22568	11462860	 aee8cc	mt9v034_acc.elf
+'Finished building: mt9v034_acc.elf.size'
+' '
+
+07:41:13 Build Finished (took 5m:58s.497ms)
+

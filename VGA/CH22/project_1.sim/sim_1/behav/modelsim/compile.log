@@ -1,0 +1,170 @@
+# do {tb_cnn_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/fifo_generator_v13_2_5".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xbip_utils_v3_0_10".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xbip_pipe_v3_0_6".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xbip_bram18k_v3_0_6".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/mult_gen_v12_0_16".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/blk_mem_gen_v8_4_4".
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap fifo_generator_v13_2_5 modelsim_lib/msim/fifo_generator_v13_2_5 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap xbip_utils_v3_0_10 modelsim_lib/msim/xbip_utils_v3_0_10 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap xbip_pipe_v3_0_6 modelsim_lib/msim/xbip_pipe_v3_0_6 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap xbip_bram18k_v3_0_6 modelsim_lib/msim/xbip_bram18k_v3_0_6 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap mult_gen_v12_0_16 modelsim_lib/msim/mult_gen_v12_0_16 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap blk_mem_gen_v8_4_4 modelsim_lib/msim/blk_mem_gen_v8_4_4 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:33 on Aug 10,2021
+# vlog -64 -incr -work fifo_generator_v13_2_5 "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba" "+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" ../../../../project_1.ip_user_files/ipstatic/simulation/fifo_generator_vlog_beh.v 
+# -- Skipping module fifo_generator_vlog_beh
+# -- Skipping module fifo_generator_v13_2_5_CONV_VER
+# -- Skipping module fifo_generator_v13_2_5_sync_stage
+# -- Skipping module fifo_generator_v13_2_5_bhv_ver_as
+# -- Skipping module fifo_generator_v13_2_5_beh_ver_ll_afifo
+# -- Skipping module fifo_generator_v13_2_5_bhv_ver_ss
+# -- Skipping module fifo_generator_v13_2_5_bhv_ver_preload0
+# -- Skipping module fifo_generator_v13_2_5_axic_reg_slice
+# 
+# Top level modules:
+# 	fifo_generator_vlog_beh
+# End time: 22:30:33 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:33 on Aug 10,2021
+# vcom -64 -93 -work fifo_generator_v13_2_5 ../../../../project_1.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 22:30:34 on Aug 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:34 on Aug 10,2021
+# vlog -64 -incr -work fifo_generator_v13_2_5 "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba" "+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" ../../../../project_1.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.v 
+# 
+# Top level modules:
+# End time: 22:30:35 on Aug 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:35 on Aug 10,2021
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba" "+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" ../../../../project_1.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v 
+# -- Skipping module fifo_generator_0
+# 
+# Top level modules:
+# 	fifo_generator_0
+# End time: 22:30:35 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:35 on Aug 10,2021
+# vcom -64 -93 -work xbip_utils_v3_0_10 ../../../../project_1.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 22:30:35 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:35 on Aug 10,2021
+# vcom -64 -93 -work xbip_pipe_v3_0_6 ../../../../project_1.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 22:30:36 on Aug 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:36 on Aug 10,2021
+# vcom -64 -93 -work xbip_bram18k_v3_0_6 ../../../../project_1.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 22:30:36 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:36 on Aug 10,2021
+# vcom -64 -93 -work mult_gen_v12_0_16 ../../../../project_1.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 22:30:37 on Aug 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:37 on Aug 10,2021
+# vcom -64 -93 -work xil_defaultlib ../../../../project_1.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mult_gen_0
+# -- Compiling architecture mult_gen_0_arch of mult_gen_0
+# End time: 22:30:37 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:37 on Aug 10,2021
+# vlog -64 -incr -work blk_mem_gen_v8_4_4 "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba" "+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" ../../../../project_1.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v 
+# -- Skipping module STATE_LOGIC_v8_4
+# -- Skipping module beh_vlog_muxf7_v8_4
+# -- Skipping module beh_vlog_ff_clr_v8_4
+# -- Skipping module beh_vlog_ff_pre_v8_4
+# -- Skipping module beh_vlog_ff_ce_clr_v8_4
+# -- Skipping module write_netlist_v8_4
+# -- Skipping module read_netlist_v8_4
+# -- Skipping module blk_mem_axi_write_wrapper_beh_v8_4
+# -- Skipping module blk_mem_axi_read_wrapper_beh_v8_4
+# -- Skipping module blk_mem_axi_regs_fwd_v8_4
+# -- Skipping module blk_mem_gen_v8_4_4_output_stage
+# -- Skipping module blk_mem_gen_v8_4_4_softecc_output_reg_stage
+# -- Skipping module blk_mem_gen_v8_4_4_mem_module
+# -- Skipping module blk_mem_gen_v8_4_4
+# 
+# Top level modules:
+# 	blk_mem_gen_v8_4_4
+# End time: 22:30:38 on Aug 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:38 on Aug 10,2021
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/798b/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" "+incdir+../../../../project_1.srcs/sources_1/bd/design_1/ipshared/4fba" "+incdir+../../../../project_1.srcs/sources_1/bd/axi_lite_v1_0_bfm_1/ipshared/ec67/hdl" "+incdir+../../../../project_1.srcs/sim_1/imports/axi_lite_v1_0_bfm_1" "+incdir+D:/Xilinx/Vivado/2019.2/data/xilinx_vip/include" ../../../../project_1.srcs/sources_1/ip/rom_w4_ip/sim/rom_w4_ip.v ../../../../project_1.srcs/sources_1/ip/rom_w3_ip/sim/rom_w3_ip.v ../../../../project_1.srcs/sources_1/ip/rom_w2_ip/sim/rom_w2_ip.v ../../../../project_1.srcs/sources_1/ip/rom_w1_ip/sim/rom_w1_ip.v ../../../../project_1.srcs/sources_1/ip/rom_w0_ip/sim/rom_w0_ip.v ../../../../project_1.srcs/sources_1/ip/rom_b_ip/sim/rom_b_ip.v ../../../../project_1.srcs/sources_1/ip/data_ram_ip/sim/data_ram_ip.v ../../../../project_1.srcs/sources_1/ip/rom_img_ip/sim/rom_img_ip.v ../../../../ip_repo/cnn_top.v ../../../../ip_repo/conv_cal.v ../../../../ip_repo/data_ram.v ../../../../ip_repo/downsample.v ../../../../ip_repo/gen_sim_data.v ../../../../ip_repo/param_rom.v ../../../../ip_repo/pool_layer.v ../../../../sim/tb_cnn_top.v 
+# -- Skipping module rom_w4_ip
+# -- Skipping module rom_w3_ip
+# -- Skipping module rom_w2_ip
+# -- Skipping module rom_w1_ip
+# -- Skipping module rom_w0_ip
+# -- Skipping module rom_b_ip
+# -- Skipping module data_ram_ip
+# -- Skipping module rom_img_ip
+# -- Skipping module cnn_top
+# -- Skipping module conv_cal
+# -- Skipping module data_ram
+# -- Skipping module downsample
+# -- Skipping module gen_sim_data
+# -- Skipping module param_rom
+# -- Skipping module pool_layer
+# -- Skipping module tb_cnn_top
+# 
+# Top level modules:
+# 	tb_cnn_top
+# End time: 22:30:38 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 22:30:39 on Aug 10,2021
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 22:30:39 on Aug 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

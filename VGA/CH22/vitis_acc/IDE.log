@@ -1,0 +1,98 @@
+07:33:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\08_Project\07_EBAZ4205_CNN\CH22\vitis_acc\temp_xsdb_launch_script.tcl
+07:33:07 INFO  : XSCT server has started successfully.
+07:33:07 INFO  : Registering command handlers for Vitis TCF services
+07:33:11 INFO  : Successfully done setting XSCT server connection channel  
+07:33:11 INFO  : plnx-install-location is set to ''
+07:33:11 INFO  : Successfully done query RDI_DATADIR 
+07:33:11 INFO  : Successfully done setting workspace for the tool. 
+07:35:15 INFO  : Checking for BSP changes to sync application flags for project 'mt9v034_acc'...
+07:42:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299980130" && level==0} -index 1' command is executed.
+07:42:57 INFO  : 'fpga -state' command is executed.
+07:42:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:42:57 INFO  : Jtag cable 'Digilent JTAG-HS3 210299980130' is selected.
+07:42:57 INFO  : 'jtag frequency' command is executed.
+07:42:57 INFO  : Context for 'APU' is selected.
+07:42:57 INFO  : Hardware design information is loaded from 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+07:42:57 INFO  : 'configparams force-mem-access 1' command is executed.
+07:42:57 INFO  : Context for 'APU' is selected.
+07:42:57 INFO  : 'stop' command is executed.
+07:42:57 INFO  : Sourcing of 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/_ide/psinit/ps7_init.tcl' is done.
+07:42:58 INFO  : 'ps7_init' command is executed.
+07:42:58 INFO  : 'ps7_post_config' command is executed.
+07:42:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:42:58 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+07:42:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:43:21 INFO  : The application 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/Debug/mt9v034_acc.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:43:21 INFO  : 'configparams force-mem-access 0' command is executed.
+07:43:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+source E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/Debug/mt9v034_acc.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+07:43:21 INFO  : Memory regions updated for context APU
+07:43:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:43:21 INFO  : 'con' command is executed.
+07:43:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+07:43:21 INFO  : Launch script is exported to file 'E:\08_Project\07_EBAZ4205_CNN\CH22\vitis_acc\.sdk\launch_scripts\single_application_debug\systemdebugger_mt9v034_acc_system_standalone.tcl'
+07:44:51 INFO  : Disconnected from the channel tcfchan#3.
+07:44:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299980130" && level==0} -index 1' command is executed.
+07:44:52 INFO  : 'fpga -state' command is executed.
+07:44:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:44:52 INFO  : Jtag cable 'Digilent JTAG-HS3 210299980130' is selected.
+07:44:52 INFO  : 'jtag frequency' command is executed.
+07:44:52 INFO  : Context for 'APU' is selected.
+07:44:52 INFO  : Hardware design information is loaded from 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+07:44:52 INFO  : 'configparams force-mem-access 1' command is executed.
+07:44:52 INFO  : Context for 'APU' is selected.
+07:44:52 INFO  : 'stop' command is executed.
+07:44:52 INFO  : Sourcing of 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/_ide/psinit/ps7_init.tcl' is done.
+07:44:52 INFO  : 'ps7_init' command is executed.
+07:44:52 INFO  : 'ps7_post_config' command is executed.
+07:44:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:44:52 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+07:44:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:45:15 INFO  : The application 'E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/Debug/mt9v034_acc.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:45:15 INFO  : 'configparams force-mem-access 0' command is executed.
+07:45:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+source E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/08_Project/07_EBAZ4205_CNN/CH22/vitis_acc/mt9v034_acc/Debug/mt9v034_acc.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+07:45:16 INFO  : Memory regions updated for context APU
+07:45:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:45:16 INFO  : 'con' command is executed.
+07:45:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+07:45:16 INFO  : Launch script is exported to file 'E:\08_Project\07_EBAZ4205_CNN\CH22\vitis_acc\.sdk\launch_scripts\single_application_debug\systemdebugger_mt9v034_acc_system_standalone.tcl'
+07:46:17 INFO  : Disconnected from the channel tcfchan#4.
